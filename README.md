@@ -7,6 +7,7 @@ La letra "i" es convertida en "imes".
 La letra "a" es convertida en "ai".
 La letra "o" es convertida en "ober".
 La letra "u" es convertida en "ufat".
+
 Funcionamiento
 
 El encriptador y desencriptador se basan en lenguajes web como HTML, CSS y JavaScript, y no requiere de ninguna dependencia adicional. El código se puede ejecutar directamente en un navegador web.
@@ -22,7 +23,9 @@ Haz clic en el botón "Encriptar" o "Desencriptar" según la acción que desees 
 El resultado se mostrará en el campo de salida.
 ¡Eso es todo! Ahora puedes utilizar el encriptador y desencriptador para codificar y decodificar texto según las reglas establecidas en el diccionario.
 
+
 Notas adicionales
+
 
 Este proyecto se proporciona con fines educativos y de demostración. No garantiza un nivel de seguridad completo y no se recomienda para encriptar información sensible.
 Si deseas modificar el diccionario de encriptación, puedes hacerlo directamente en el archivo script.js. Asegúrate de mantener el formato de reemplazo consistente para evitar errores.
