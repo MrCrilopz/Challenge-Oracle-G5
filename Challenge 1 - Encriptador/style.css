@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2d3d;
+  }
+  
+  header {
+    background-color: #0e1622;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .textarea-container {
+    margin: 10px;
+  }
+  
+  .textarea-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .textarea-container textarea {
+    width: 500px;
+    height: 400px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #0e1622;
+    color: #fff;
+    border: none;
+    padding: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .button-container button {
+    margin: 5px;
+    background-color: #2d4050;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  footer {
+    background-color: #0e1622;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer button {
+    background-color: #10171f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  

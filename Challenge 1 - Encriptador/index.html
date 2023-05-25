@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge 1 - Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <h1>Challenge 1 - Encriptador</h1>
+    </header>
+
+    <div class="container">
+      <div class="textarea-container">
+        <label for="inputText">Texto:</label>
+        <textarea
+          id="inputText"
+          placeholder="Introduce el texto"
+          rows="5"
+          cols="30"
+        ></textarea>
+      </div>
+
+      <div class="textarea-container">
+        <label for="outputText">Resultado:</label>
+        <textarea
+          id="outputText"
+          placeholder="Texto encriptado o desencriptado"
+          rows="5"
+          cols="30"
+          readonly
+        ></textarea>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button onclick="encriptarTexto()">Codificar</button>
+      <button onclick="desencriptarTexto()">Decodificar</button>
+      <button onclick="copiarAlPortapapeles()">Copiar Resultado</button>
+    </div>
+
+    <footer>
+      <a
+        href="https://github.com/MrCrilopz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>Repositorio</button>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
